@@ -1,0 +1,15 @@
+.navigationbar{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #f9f9f9;
+    align-items: center;
+}
+
+.navigationbar__logo{
+    height: 45px;
+    object-fit: contain;
+}
+
+.navigationbar__icon{
+    padding: 20px;
+}

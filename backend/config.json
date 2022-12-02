@@ -1,0 +1,14 @@
+{
+    "development": {
+      "database_conn": "mongodb+srv://280_user:280_password@cmpe280.m8dzhhu.mongodb.net/?retryWrites=true&w=majority",
+      "options":{
+        "useNewUrlParser": true,
+        "useUnifiedTopology": true,
+        "maxPoolSize": 500
+        },
+        "secret": "cmpe273_secret_key"
+    }
+
+
+ }
+  

@@ -1,0 +1,10 @@
+{
+    "SUCCESSFUL_LOGIN" : "Successful Login",
+    "INVALID_CREDENTIALS" : "Invalid Credentials",
+    "USER_CREATED" : "User Created",
+    "USER_ALREADY_EXISTS" : "User Already Exists",
+    "USER_NAME_AVAILABLE" : "UserName Available",
+    "USER_NAME_UNAVAILABLE" : "UserName Unavailable",
+    "ITEM_ADDED_SUCCESSFULLY" : "Item added Successfully",
+    "ITEM_EDITED_SUCCESSFULLY" : "Item edited Successfully"
+}

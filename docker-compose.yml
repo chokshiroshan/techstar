@@ -1,0 +1,57 @@
+version: "3.7"
+
+services:
+  mongodb:
+    image: mongo:4.4.0-rc7
+    restart: unless-stopped
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: techStaradmin
+      MONGO_INITDB_ROOT_PASSWORD: techStarpass
+    volumes: 
+      - ./data:/data/db
+      - ./db-init-scripts:/docker-entrypoint-initdb.d
+    ports:
+      - 27017:27017
+    networks: 
+      - techStar
+
+  backend:
+    depends_on: 
+      - mongodb
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    ports:
+      - 7000:3000
+    volumes: 
+      - type: bind
+        source: ./backend
+        target: /app
+      - type: bind
+        source: ./backend/node_modules
+        target: /app/node_modules
+    restart: unless-stopped
+    networks: 
+      - techStar
+
+  frontend:
+    depends_on: 
+      - backend
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    ports:
+      - 3000:3000
+    volumes: 
+      - type: bind
+        source: ./frontend
+        target: /app
+      - type: bind
+        source: ./frontend/node_modules
+        target: /app/node_modules
+    restart: unless-stopped
+    networks: 
+      - techStar
+
+networks: 
+  techStar:

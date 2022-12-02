@@ -1,0 +1,89 @@
+[
+  {
+    "user_id": 1001,
+    "firstName": "Utkarsh",
+    "lastName": "Pant",
+    "email": "utkarsh@gmail.com",
+    "phone": 9293219819,
+    "age": 24,
+    "githubUsername": "utkarshpant112",
+    "yearsOfExperience": "2 years as developer",
+    "techStack": ["java", "react", "aws", "javascript"],
+    "interestedTechStack": [
+      "python",
+      "machine learning",
+      "deep learning",
+      "artificial intelligence"
+    ],
+    "image": "https://console.firebase.google.com/project/etsy-lab1/storage/etsy-lab1.appspot.com/files",
+    "city": "San Jose",
+    "country": "USA",
+    "About": "Looking for python developer for data mining project ",
+    "interestedIds": [],
+    "notInterestedIds": [1003]
+  },
+  {
+    "user_id": 123123,
+    "firstName": "Aditya",
+    "lastName": "Kumar",
+    "email": "aditya@gmail.com",
+    "phone": 9293219819,
+    "age": 28,
+    "githubUsername": "utkarshpant112",
+    "yearsOfExperience": "5 years as developer",
+    "techStack": ["big data", "AI"],
+    "interestedTechStack": ["java", "react", "aws", "javascript"],
+    "image": "",
+    "city": "San Jose",
+    "country": "USA",
+    "About": "Looking for python developer for data mining project ",
+    "interestedIds": [],
+    "notInterestedIds": []
+  },
+  {
+    "user_id": 1003,
+    "firstName": "Rajat",
+    "lastName": "Masurakar",
+    "email": "rajat@gmail.com",
+    "phone": 9293219819,
+    "age": 24,
+    "githubUsername": "utkarshpant112",
+    "yearsOfExperience": 2,
+    "techStack": ["java", "react", "aws", "javascript"],
+    "interestedTechStack": [
+      "python",
+      "machine learning",
+      "deep learning",
+      "artificial intelligence"
+    ],
+    "image": "",
+    "city": "San Jose",
+    "country": "USA",
+    "About": "Looking for python developer for data mining project ",
+    "interestedIds": [1001],
+    "notInterestedIds": []
+  },
+  {
+    "user_id": 1004,
+    "firstName": "Sai",
+    "lastName": "Kapadekar",
+    "email": "sai@gmail.com",
+    "phone": 9293219819,
+    "age": 24,
+    "githubUsername": "utkarshpant112",
+    "yearsOfExperience": 2,
+    "techStack": ["java", "react", "aws", "javascript"],
+    "interestedTechStack": [
+      "python",
+      "machine learning",
+      "deep learning",
+      "artificial intelligence"
+    ],
+    "image": "",
+    "city": "San Jose",
+    "country": "USA",
+    "About": "Looking for python developer for data mining project ",
+    "interestedIds": [],
+    "notInterestedIds": []
+  }
+]
